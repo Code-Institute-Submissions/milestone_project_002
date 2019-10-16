@@ -663,9 +663,48 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffbef', end
 	font-size: 18px;
 	line-height: 20px;
 }
+	.snip-layout {
+   
+    bottom: 0;
+    color: #999;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    left: 0;
+    line-height: normal;
+    overflow-x: auto;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+}
+.snip-layout .snip-btn--highlight {
+    background: #E5B97F;
+    color: #ffffff;
+}
 }
 
 @media (max-width: 767px) {
+	.snip-layout {
+   
+    bottom: 0;
+    color: #999;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    left: 0;
+    line-height: normal;
+    overflow-x: auto;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+}
+
+.snip-layout .snip-btn--highlight {
+    background: #E5B97F;
+    color: #ffffff;
+}
 .header {
 	text-align: center;
 	margin-left: 0px;
@@ -734,5 +773,32 @@ button[type="submit"] {
 }
 
 
-		
+	/* ------ Checkout -------*/	
+
+
+	.snip-layout {
+   
+    bottom: 0;
+    color: #000000;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    left: 0;
+    line-height: normal;
+    overflow-x: auto;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+}
+
+.snip-layout .snip-btn--highlight {
+    background: #E5B97F;
+    color: #ffffff;
+}
+
+
+
+
+
 
